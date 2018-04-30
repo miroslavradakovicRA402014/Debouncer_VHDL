@@ -1,0 +1,28 @@
+Command line:
+   debouncer_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  57671
+
+Thu Apr 19 14:36:30 2018
+
+
+ Elaboration Time: 0.109375 sec
+
+ Current Memory Usage: 1510.17 Meg
+
+ Total Signals          : 13
+ Total Nets             : 40
+ Total Signal Drivers   : 9
+ Total Blocks           : 4
+ Total Primitive Blocks : 3
+ Total Processes        : 7
+ Total Traceable Variables  : 15
+ Total Scalar Nets and Variables : 525
+
+ Total Simulation Time: 0.171875 sec
+
+ Current Memory Usage: 1510.17 Meg
+
+Thu Apr 19 14:36:50 2018
+

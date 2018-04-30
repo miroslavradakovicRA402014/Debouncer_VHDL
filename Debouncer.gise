@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="Debouncer.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="_ngo"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/map.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/par.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/trce.xmsgs"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="debouncer.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="debouncer.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="debouncer.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="debouncer.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="debouncer.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="debouncer.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="debouncer_summary.html"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="debouncer_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="debouncer_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="debouncer_tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="debouncer_tb_stx_beh.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="debouncer_verification.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="debouncer_verification.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="debouncer_verification.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="debouncer_verification.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="debouncer_verification.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="debouncer_verification.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="debouncer_verification.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="debouncer_verification.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="debouncer_verification.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="debouncer_verification.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="debouncer_verification.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="debouncer_verification.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="debouncer_verification.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="debouncer_verification.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="debouncer_verification.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="debouncer_verification.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="debouncer_verification.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="debouncer_verification.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="debouncer_verification.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="debouncer_verification.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="debouncer_verification.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="debouncer_verification.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="debouncer_verification.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="debouncer_verification_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="debouncer_verification_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="debouncer_verification_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="debouncer_verification_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="debouncer_verification_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="debouncer_verification_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="debouncer_verification_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="debouncer_verification_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="debouncer_verification_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="debouncer_verification_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="debouncer_verification_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="debouncer_verification_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="debouncer_verification_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="debouncer_verification_usage.xml"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="debouncer_verification_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="debouncer_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="usage_statistics_webtalk.html"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="webtalk.log"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xlnx_auto_0_xdb"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1524139785" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1524139785">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1524141140" xil_pn:in_ck="4899857209952649763" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1524141140">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputAdded"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="debouncer.vhd"/>
+      <outfile xil_pn:name="debouncer_tb.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1524141142" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="4887149116930094018" xil_pn:start_ts="1524141142">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1524141142" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="-3660628235557008320" xil_pn:start_ts="1524141142">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1524140419" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="-7442598884735056087" xil_pn:start_ts="1524140419">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1524141142" xil_pn:in_ck="4899857209952649763" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1524141142">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="debouncer.vhd"/>
+      <outfile xil_pn:name="debouncer_tb.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1524141144" xil_pn:in_ck="4899857209952649763" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="-8458893553208656668" xil_pn:start_ts="1524141142">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="debouncer_tb_beh.prj"/>
+      <outfile xil_pn:name="debouncer_tb_isim_beh.exe"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1524141145" xil_pn:in_ck="-5791894241867958341" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="4906690472332550769" xil_pn:start_ts="1524141144">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="debouncer_tb_isim_beh.wdb"/>
+      <outfile xil_pn:name="isim.cmd"/>
+    </transform>
+    <transform xil_pn:end_ts="1524140916" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1524140916">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1524146217" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="2291836313117869082" xil_pn:start_ts="1524146217">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1524146217" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-5034183715181142581" xil_pn:start_ts="1524146217">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1524146217" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1524146217">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1524146217" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="307068348737453340" xil_pn:start_ts="1524146217">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1524146217" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="8977612015859452503" xil_pn:start_ts="1524146217">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1524146217" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-3475042435332493867" xil_pn:start_ts="1524146217">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1524146417" xil_pn:in_ck="-4867646009440962992" xil_pn:name="TRANEXT_xstsynthesize_spartan6" xil_pn:prop_ck="-1833425547527031388" xil_pn:start_ts="1524146413">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="debouncer_verification.lso"/>
+      <outfile xil_pn:name="debouncer_verification.ngc"/>
+      <outfile xil_pn:name="debouncer_verification.ngr"/>
+      <outfile xil_pn:name="debouncer_verification.prj"/>
+      <outfile xil_pn:name="debouncer_verification.stx"/>
+      <outfile xil_pn:name="debouncer_verification.syr"/>
+      <outfile xil_pn:name="debouncer_verification.xst"/>
+      <outfile xil_pn:name="debouncer_verification_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1524146417" xil_pn:in_ck="5213586976487323536" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="548244065396549073" xil_pn:start_ts="1524146417">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1524146421" xil_pn:in_ck="3722620811238876207" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="3524913844026115894" xil_pn:start_ts="1524146417">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_ngo"/>
+      <outfile xil_pn:name="_xmsgs/ngdbuild.xmsgs"/>
+      <outfile xil_pn:name="debouncer_verification.bld"/>
+      <outfile xil_pn:name="debouncer_verification.ngd"/>
+      <outfile xil_pn:name="debouncer_verification_ngdbuild.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1524146427" xil_pn:in_ck="3722620811238876208" xil_pn:name="TRANEXT_map_spartan6" xil_pn:prop_ck="-2489532510156203999" xil_pn:start_ts="1524146421">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="_xmsgs/map.xmsgs"/>
+      <outfile xil_pn:name="debouncer_verification.pcf"/>
+      <outfile xil_pn:name="debouncer_verification_map.map"/>
+      <outfile xil_pn:name="debouncer_verification_map.mrp"/>
+      <outfile xil_pn:name="debouncer_verification_map.ncd"/>
+      <outfile xil_pn:name="debouncer_verification_map.ngm"/>
+      <outfile xil_pn:name="debouncer_verification_map.xrpt"/>
+      <outfile xil_pn:name="debouncer_verification_summary.xml"/>
+      <outfile xil_pn:name="debouncer_verification_usage.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1524146439" xil_pn:in_ck="4063134915083504457" xil_pn:name="TRANEXT_par_spartan6" xil_pn:prop_ck="-3829590541433901613" xil_pn:start_ts="1524146427">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/par.xmsgs"/>
+      <outfile xil_pn:name="debouncer_verification.ncd"/>
+      <outfile xil_pn:name="debouncer_verification.pad"/>
+      <outfile xil_pn:name="debouncer_verification.par"/>
+      <outfile xil_pn:name="debouncer_verification.ptwx"/>
+      <outfile xil_pn:name="debouncer_verification.unroutes"/>
+      <outfile xil_pn:name="debouncer_verification.xpi"/>
+      <outfile xil_pn:name="debouncer_verification_pad.csv"/>
+      <outfile xil_pn:name="debouncer_verification_pad.txt"/>
+      <outfile xil_pn:name="debouncer_verification_par.xrpt"/>
+    </transform>
+    <transform xil_pn:end_ts="1524146450" xil_pn:in_ck="5133286888729319452" xil_pn:name="TRANEXT_bitFile_spartan6" xil_pn:prop_ck="5341574683187206424" xil_pn:start_ts="1524146439">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/bitgen.xmsgs"/>
+      <outfile xil_pn:name="debouncer_verification.bgn"/>
+      <outfile xil_pn:name="debouncer_verification.bit"/>
+      <outfile xil_pn:name="debouncer_verification.drc"/>
+      <outfile xil_pn:name="debouncer_verification.ut"/>
+      <outfile xil_pn:name="usage_statistics_webtalk.html"/>
+      <outfile xil_pn:name="webtalk.log"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+    </transform>
+    <transform xil_pn:end_ts="1524146475" xil_pn:in_ck="5133286888729306598" xil_pn:name="TRAN_configureTargetDevice" xil_pn:prop_ck="8482462020707587906" xil_pn:start_ts="1524146473">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1524146439" xil_pn:in_ck="3722620811238876076" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416184" xil_pn:start_ts="1524146435">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="_xmsgs/trce.xmsgs"/>
+      <outfile xil_pn:name="debouncer_verification.twr"/>
+      <outfile xil_pn:name="debouncer_verification.twx"/>
+    </transform>
+  </transforms>
+
+</generated_project>

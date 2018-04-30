@@ -1,0 +1,22 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "secureip" -o "D:/BSc_workspace/Debouncer/debouncer_tb_isim_beh.exe" -prj "D:/BSc_workspace/Debouncer/debouncer_tb_beh.prj" "work.debouncer_tb" 
+ISim P.68d (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "D:/BSc_workspace/Debouncer/debouncer.vhd" into library work
+Parsing VHDL file "D:/BSc_workspace/Debouncer/debouncer_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 196184 KB
+Fuse CPU Usage: 171 ms
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavioral of entity debouncer [\debouncer(20)\]
+Compiling architecture behavior of entity debouncer_tb
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 6 VHDL Units
+Built simulation executable D:/BSc_workspace/Debouncer/debouncer_tb_isim_beh.exe
+Fuse Memory Usage: 211416 KB
+Fuse CPU Usage: 265 ms

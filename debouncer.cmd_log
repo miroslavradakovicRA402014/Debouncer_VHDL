@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "D:/BSc_workspace/Debouncer/debouncer.xst" -ofn "D:/BSc_workspace/Debouncer/debouncer.syr" 

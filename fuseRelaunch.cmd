@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "D:/BSc_workspace/Debouncer/debouncer_tb_isim_beh.exe" -prj "D:/BSc_workspace/Debouncer/debouncer_tb_beh.prj" "work.debouncer_tb" 

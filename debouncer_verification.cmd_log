@@ -1,0 +1,16 @@
+xst -intstyle ise -ifn "D:/BSc_workspace/Debouncer/debouncer_verification.xst" -ofn "D:/BSc_workspace/Debouncer/debouncer_verification.syr" 
+xst -intstyle ise -ifn "D:/BSc_workspace/Debouncer/debouncer_verification.xst" -ofn "D:/BSc_workspace/Debouncer/debouncer_verification.syr" 
+xst -intstyle ise -ifn "D:/BSc_workspace/Debouncer/debouncer_verification.xst" -ofn "D:/BSc_workspace/Debouncer/debouncer_verification.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc deb_pins.ucf -p xc6slx45-fgg676-2 debouncer_verification.ngc debouncer_verification.ngd  
+xst -intstyle ise -ifn "D:/BSc_workspace/Debouncer/debouncer_verification.xst" -ofn "D:/BSc_workspace/Debouncer/debouncer_verification.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc deb_pins.ucf -p xc6slx45-fgg676-2 debouncer_verification.ngc debouncer_verification.ngd  
+map -intstyle ise -p xc6slx45-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o debouncer_verification_map.ncd debouncer_verification.ngd debouncer_verification.pcf 
+par -w -intstyle ise -ol high -mt off debouncer_verification_map.ncd debouncer_verification.ncd debouncer_verification.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml debouncer_verification.twx debouncer_verification.ncd -o debouncer_verification.twr debouncer_verification.pcf -ucf deb_pins.ucf 
+bitgen -intstyle ise -f debouncer_verification.ut debouncer_verification.ncd 
+xst -intstyle ise -ifn "D:/BSc_workspace/Debouncer/debouncer_verification.xst" -ofn "D:/BSc_workspace/Debouncer/debouncer_verification.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc deb_pins.ucf -p xc6slx45-fgg676-2 debouncer_verification.ngc debouncer_verification.ngd  
+map -intstyle ise -p xc6slx45-fgg676-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o debouncer_verification_map.ncd debouncer_verification.ngd debouncer_verification.pcf 
+par -w -intstyle ise -ol high -mt off debouncer_verification_map.ncd debouncer_verification.ncd debouncer_verification.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml debouncer_verification.twx debouncer_verification.ncd -o debouncer_verification.twr debouncer_verification.pcf -ucf deb_pins.ucf 
+bitgen -intstyle ise -f debouncer_verification.ut debouncer_verification.ncd 

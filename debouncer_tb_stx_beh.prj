@@ -1,0 +1,2 @@
+vhdl isim_temp "debouncer.vhd"
+vhdl isim_temp "debouncer_tb.vhd"

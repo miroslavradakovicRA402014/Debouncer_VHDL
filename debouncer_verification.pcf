@@ -1,0 +1,17 @@
+//! **************************************************************************
+// Written by: Map P.68d on Thu Apr 19 16:00:26 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "oLED_DATA<4>" LOCATE = SITE "L23" LEVEL 1;
+COMP "oLED_DATA<5>" LOCATE = SITE "K24" LEVEL 1;
+COMP "oLED_DATA<6>" LOCATE = SITE "H24" LEVEL 1;
+COMP "oLED_DATA<7>" LOCATE = SITE "D24" LEVEL 1;
+COMP "inRST" LOCATE = SITE "AE24" LEVEL 1;
+COMP "inBUTT" LOCATE = SITE "AA24" LEVEL 1;
+COMP "oLED_DATA<0>" LOCATE = SITE "N24" LEVEL 1;
+COMP "oLED_DATA<1>" LOCATE = SITE "N23" LEVEL 1;
+COMP "oLED_DATA<2>" LOCATE = SITE "M24" LEVEL 1;
+COMP "oLED_DATA<3>" LOCATE = SITE "L24" LEVEL 1;
+SCHEMATIC END;
+
